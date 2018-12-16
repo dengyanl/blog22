@@ -4,6 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 // 导入 mysql 数据库模板
 const mysql = require('mysql')
+// 导入 moment 模板
 const moment = require('moment')
 // 调用 express() 方法
 const app = express()
